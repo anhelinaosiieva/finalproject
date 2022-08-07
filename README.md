@@ -3,7 +3,7 @@
 # Not a Lizard? Classification App
 This app was created using CNN algorithm for image classification/recognition on Streamlit.
 
-#### Video Demo: <>
+#### Video Demo: <https://youtu.be/6RZCQg4lKaw>
 #### Description:
 
 Found a small, brown, cold-blooded animal and not sure what it might be? You are not alone!
