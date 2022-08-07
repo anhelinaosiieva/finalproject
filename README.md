@@ -46,7 +46,7 @@ source ~/miniforge3/bin/activate
 4. Restart terminal.
 5. Create a directory to setup TensorFlow environment.
 ```
-mkdir tensorflow-test cd tensorflow-test
+mkdir finalproject cd finalproject
 ```
 6. Make and activate Conda environment. Note: Python 3.8 is the most stable for using the following setup.
 ```
@@ -78,7 +78,7 @@ python -m pip install streamlit
 ```
 13. Start Jupyter Notebook.
 ```
-mkdir tensorflow-test cd tensorflow-test
+jupyter notebook
 ```
 ###### Precheck after installing dependencies
 ```
