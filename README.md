@@ -1,2 +1,5 @@
-# finalproject
-Not a Lizard? Classification App
+# FinalProject
+
+# Not a Lizard? Classification App
+#### Video Demo: <>
+#### Description:
