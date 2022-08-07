@@ -74,17 +74,17 @@ print(f"TensorFlow version: {tf.__version__}")
 ```
 
 #### Structure
-> main.py
+`main.py`
 Includes the runcode for Streamlit webpage. Use `streamlit run main.py` to start.
 
-> finalproject.ipynb
+`finalproject.ipynb`
 Jupyter notebook file with our model.
 
-> data
+`data`
 Folder with images used for training.
 
-> models
+`models`
 Our saved model in `.h5` format.
 
-> logs
+`logs`
 Training logs.
