@@ -4,9 +4,7 @@ import numpy as np
 import tensorflow as tf
 import cv2
 
-# Designing the interface
 st.title("Not a Lizard? Classification App")
-# For newline
 st.write('\n')
 
 image = Image.open('intro.png')
@@ -14,9 +12,8 @@ show = st.image(image, use_column_width=True)
 
 st.sidebar.title("Upload Image")
 
-#Disabling warning
 st.set_option('deprecation.showfileUploaderEncoding', False)
-#Choose your own image
+
 uploaded_file = st.sidebar.file_uploader(" ",type=['png', 'jpg', 'jpeg', 'bmp'] )
 
 if uploaded_file is not None:
@@ -27,8 +24,6 @@ if uploaded_file is not None:
     img = np.asarray(test_image)
 
     resize = tf.image.resize(img, (256,256))
-
-
 
 st.sidebar.write('\n')
 
@@ -48,7 +43,6 @@ if st.sidebar.button("Click Here to Classify"):
     else:
         
         with st.spinner('Classifying ...'):
-
 
           current_prediction = model.predict(np.expand_dims(resize/255, axis=0))
 
